@@ -2,6 +2,23 @@
   text-align: center;
 }
 
+ul {
+  list-style-position: outside;
+}
+
+.Info {
+  display: flex;
+  flex-direction: column;
+  padding: 2em;
+  margin: auto;
+  width: 30%;
+  background-color: pink;
+  border: 5px solid lavender;
+  border-radius: 1em;
+  font-size: 18px;
+  margin-top: 5em;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
